@@ -1,0 +1,60 @@
+.wd-header {
+  background: #9EC4E4;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1em;
+}
+.wd-logo img {
+  height: 60px;
+}
+
+.wd-logo-branding h2 {
+  margin: 0.25em 0 0 0;
+}
+
+.wd-jumbotron {
+  height: 20em;
+  background: linear-gradient(
+      rgba(175, 175, 175, 0.55),
+      rgba(175, 175, 175, 0.55)
+    ), url("smaller_home.jpg");
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.wd-centered {
+  text-align: center;
+}
+
+.wd-section {
+  height: 20em;
+  position: relative;
+}
+
+.wd-section.wd-blue {
+  background: #5E9CD3;
+  padding: 2em 0;
+}
+
+.wd-vertical-aligned {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+.wd-container-fix {
+  position: relative;
+}
+
+.wd-list {
+  list-style: none;
+}
+
+.wd-footer {
+  padding: 1em 0;
+  font-size: 1.3em;
+}
+
+.wd-pull-right {
+  float: right;
+}
