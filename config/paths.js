@@ -42,9 +42,9 @@ function getServedPath(appPackageJson) {
 module.exports = {
   dotenv: resolveApp('.env'),
   appBuild: resolveApp('build'),
-  buildAppHtml: resolveApp('build/survey.html'),
+  buildAppHtml: resolveApp('build/canvas.html'),
   appPublic: resolveApp('public'),
-  appHtml: resolveApp('public/survey.html'),
+  appHtml: resolveApp('public/canvas.html'),
   homeHtml: resolveApp('public/index.html'),
   appIndexJs: resolveApp('src/index.js'),
   appPackageJson: resolveApp('package.json'),
