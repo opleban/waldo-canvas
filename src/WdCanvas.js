@@ -88,6 +88,7 @@ class WdCanvas extends Component {
               </div>
             </div>
           </div>
+          <button onClick={() => this.props.goToPostSurvey()}>Continue</button>
         </div>
       </div>
     );
@@ -95,7 +96,7 @@ class WdCanvas extends Component {
 }
 
 const mapDispatchToProps = dispatch => bindActionCreators({
-  goToSurvey: () => push('/waldo-canvas/canvas')
+  goToPostSurvey: () => push('/waldo-canvas/post-survey')
 }, dispatch)
 
 export default connect(

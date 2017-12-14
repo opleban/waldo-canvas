@@ -3,6 +3,7 @@ import { Route, Link } from 'react-router-dom';
 import './App.css';
 import WdSurvey from './WdSurvey.js';
 import WdCanvas from './WdCanvas.js';
+import WdPostSurvey from './WdPostSurvey.js';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -29,6 +30,7 @@ class App extends Component {
             <Route exact path="/waldo-canvas/" component={WdSurvey} />
             <Route exact path="/waldo-canvas/canvas" component={WdSurvey} />
             <Route exact path="/waldo-canvas/canvas-result" component={WdCanvas} />
+            <Route exact path="/waldo-canvas/post-survey" component={WdPostSurvey} />
           </main>
         </div>
       </MuiThemeProvider>
