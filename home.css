@@ -13,17 +13,22 @@
 }
 
 .wd-jumbotron {
-  height: 20em;
+  height: 50em;
   background: linear-gradient(
       rgba(175, 175, 175, 0.55),
       rgba(175, 175, 175, 0.55)
     ), url("smaller_home.jpg");
   background-size: cover;
   margin-bottom: 0;
+  padding: 10em 0;
 }
 
 .wd-centered {
   text-align: center;
+}
+
+.wd-call-to-action {
+  margin-top: 2em;
 }
 
 .wd-section {
@@ -57,4 +62,14 @@
 
 .wd-pull-right {
   float: right;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.wd-outer-container {
+  flex: 1 0 auto;
 }
