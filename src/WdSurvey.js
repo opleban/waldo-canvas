@@ -2,16 +2,15 @@ import React, { Component } from 'react';
 import { push } from 'react-router-redux'
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import WdForm from './WdForm.js';
+
 
 class WdSurvey extends Component {
   render () {
     return (
       <div>
         <div className="container wd-container">
-          <h3>Provide us with some information to get started with your canvas!</h3>
           <div className="wd-canvas-survey">
-            <WdForm />
+            <img alt="survey placeholder" src={`${process.env.PUBLIC_URL}/WDSurvey.png`}></img>
           </div>
           <button onClick={() => this.props.goToCanvas()}>Go to your Canvas</button>
         </div>

@@ -16,7 +16,7 @@ class App extends Component {
             <div className="container">
               <div className="wd-logo-branding col-lg-2 col-md-2 col-sm-2">
                 <div className="wd-logo col-lg-6">
-                    <img alt="panda logo" src="panda.png" />
+                    <img alt="panda logo" src={`${process.env.PUBLIC_URL}/panda.png`} />
                 </div>
                 <div className="col-lg-6">
                   <h2>myCanvas</h2>

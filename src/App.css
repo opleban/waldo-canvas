@@ -111,3 +111,102 @@ header.wd-header {
 div.wd-field-wrapper {
   display: inline-block;
 }
+
+.wd-row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -.5rem;
+  margin-left: -.5rem;
+}
+
+.wd-row.wd-horizontal .wd-box {
+  margin-right: 1em;
+}
+
+.wd-col {
+  flex-grow: 1;
+  flex-basis: 0;
+  flex: 0 0 auto;
+  max-width: 100%;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+.wd-box {
+  height: auto;
+  width: 20em;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #FDFDFD;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.30), 0 2px 2px rgba(0,0,0,0.22);
+}
+
+.wd-box.wd-empty {
+  box-shadow: none;
+  background: none;
+}
+
+.wd-box.wd-wide {
+  width: 26.5em;
+}
+
+.wd-box.wd-x-wide {
+  width: 45em;
+}
+
+.wd-box.wd-small {
+  width: 15em;
+}
+
+.wd-profile {
+  text-align: center;
+}
+.wd-profile img {
+  height: 12.5em;
+  width: 12.5em;
+  margin: 0 auto;
+}
+
+.wd-profile .wd-profile-name {
+  margin-top: 1em;
+  font-size: 1.4em;
+}
+
+.wd-canvas-container {
+  padding: 1em 0;
+}
+
+.wd-box-text {
+  font-size: 1.2em;
+}
+
+.wd-box-image {
+  height: 10em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.wd-box.wd-small .wd-box-image {
+  margin-bottom: 2.5em;
+}
+
+.wd-box.wd-small .wd-box-image {
+  height: 7.5em;
+}
+
+.wd-box-image img {
+  height: 100%;
+  max-width: 100%;
+}
+
+.container.wd-container.wd-canvas-page {
+  width: 1300px;
+  background-color: #EEEEEE;
+}
+
+.wd-box.wd-box-short .wd-box-image {
+    height: 4.15em;
+}
